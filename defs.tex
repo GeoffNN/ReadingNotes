@@ -1,0 +1,166 @@
+\newcommand{\alert}[1]{\textbf{}}
+
+% some traditional defintions that can be blamed on craig barratt
+\newcommand{\BEAS}{\begin{eqnarray*}}
+\newcommand{\EEAS}{\end{eqnarray*}}
+\newcommand{\BEA}{\begin{eqnarray}}
+\newcommand{\EEA}{\end{eqnarray}}
+\newcommand{\BEQ}{\begin{equation}}
+\newcommand{\EEQ}{\end{equation}}
+\newcommand{\BIT}{\begin{itemize}}
+\newcommand{\EIT}{\end{itemize}}
+\newcommand{\BNUM}{\begin{enumerate}}
+\newcommand{\ENUM}{\end{enumerate}}
+\newcommand{\BEL}[1]{\begin{equation}\label{#1}}
+\newcommand{\EEL}{\end{equation}}
+
+% arash added these two
+\newcommand{\BA}{\begin{array}}
+\newcommand{\EA}{\end{array}}
+
+% text abbrevs
+\newcommand{\cf}{{\it cf.}}
+\newcommand{\eg}{{\it e.g.}}
+\newcommand{\ie}{{\it i.e.}}
+\newcommand{\etc}{{\it etc.}}
+
+\newcommand{\ones}{\mathbf 1}
+\newcommand{\zeros}{\mathbf 0}
+
+% std math stuff
+\newcommand{\reals}{{\mbox{\bf R}}}
+\newcommand{\integers}{{\mbox{\bf Z}}}
+\newcommand{\eqbydef}{\mathrel{\stackrel{\Delta}{=}}}
+\newcommand{\complex}{{\mbox{\bf C}}}
+\newcommand{\symm}{{\mbox{\bf S}}}  % symmetric matrices
+
+% lin alg stuff
+\newcommand{\Span}{\mbox{\textrm{span}}}
+\newcommand{\Range}{\mbox{\textrm{range}}}
+\newcommand{\nullspace}{{\mathcal N}}
+\newcommand{\range}{{\mathcal R}}
+\newcommand{\Nullspace}{\mbox{\textrm{nullspace}}}
+\newcommand{\Rank}{\mathop{\bf Rank}}
+\newcommand{\Card}{\mathop{\bf Card}}
+\newcommand{\Tr}{\mathop{\bf Tr}}
+%\newcommand{\diag}{\mathop{\bf diag}}
+\newcommand{\lambdamax}{{\lambda_{\rm max}}}
+\newcommand{\lambdamin}{\lambda_{\rm min}}
+%XXX dumb question: do we not use \diag(...) to form diagonal or
+%block diagonal matrices?
+
+% probability stuff
+\newcommand{\Expect}{\mathop{\bf E{}}}
+\newcommand{\Prob}{\mathop{\bf Prob}}
+\newcommand{\erf}{\mathop{\bf erf}}
+
+% convexity & optimization stuff
+\newcommand{\Co}{{\mathop {\bf Co}}}
+\newcommand{\co}{{\mathop {\bf Co}}}
+\newcommand{\Var}{\mathop{\bf var{}}}
+\newcommand{\dist}{\mathop{\bf dist{}}}
+\newcommand{\Ltwo}{{\bf L}_2}
+%\newcommand{\QED}{~~\rule[-1pt]{8pt}{8pt}}\def\qed{\QED}
+\newcommand{\approxleq}{\mathrel{\smash{\makebox[0pt][l]{\raisebox{-3.4pt}{\small$\sim$}}}{\raisebox{1.1pt}{$<$}}}}
+\newcommand{\argmin}{\mathop{\rm argmin}}
+\newcommand{\epi}{\mathop{\bf epi}}
+%\newcommand{\hypo}{\mathop{\bf hypo}}
+\newcommand{\var}{\mathop{\bf var}}
+
+\newcommand{\vol}{\mathop{\bf vol}}
+\newcommand{\Vol}{\mathop{\bf vol}}
+
+\newcommand{\dom}{\mathop{\bf dom}}
+\newcommand{\aff}{\mathop{\bf aff}}
+\newcommand{\cl}{\mathop{\bf cl}}
+\newcommand{\Angle}{\mathop{\bf angle}}
+\newcommand{\intr}{\mathop{\bf int}}
+\newcommand{\relint}{\mathop{\bf rel int}}
+\newcommand{\bd}{\mathop{\bf bd}}
+
+
+%\newcommand{\vect}{\mathop{\bf vec}}
+\newcommand{\dsp}{\displaystyle}
+\newcommand{\foequal}{\simeq}
+\newcommand{\VOL}{{\mbox{\bf vol}}}
+\newcommand{\argmax}{\mathop{\rm argmax}}
+\newcommand{\xopt}{x^{\rm opt}}
+
+%the following ones seem way too specialized to be here...
+%let's omve them to a new file called defs2.tex or something like that
+\newcommand{\Xb}{{\mbox{\bf X}}}
+\newcommand{\xst}{x^\star}
+\newcommand{\varphist}{\varphi^\star}
+\newcommand{\lambdast}{\lambda^\star}
+\newcommand{\Zst}{Z^\star}
+\newcommand{\fstar}{f^\star}
+\newcommand{\xstar}{x^\star}
+\newcommand{\xc}{x^\star}
+\newcommand{\lambdac}{\lambda^\star}
+\newcommand{\lambdaopt}{\lambda^{\rm opt}}
+
+% defs for cones & generalized inequalities
+\newcommand{\geqK}{\mathrel{\succeq_K}}
+\newcommand{\gK}{\mathrel{\succ_K}}
+\newcommand{\leqK}{\mathrel{\preceq_K}}
+\newcommand{\lK}{\mathrel{\prec_K}}
+\newcommand{\geqKst}{\mathrel{\succeq_{K^*}}}
+\newcommand{\gKst}{\mathrel{\succ_{K^*}}}
+\newcommand{\leqKst}{\mathrel{\preceq_{K^*}}}
+\newcommand{\lKst}{\mathrel{\prec_{K^*}}}
+\newcommand{\geqL}{\mathrel{\succeq_L}}
+\newcommand{\gL}{\mathrel{\succ_L}}
+\newcommand{\leqL}{\mathrel{\preceq_L}}
+\newcommand{\lL}{\mathrel{\prec_L}}
+\newcommand{\geqLst}{\mathrel{\succeq_{L^*}}}
+\newcommand{\gLst}{\mathrel{\succ_{L^*}}}
+\newcommand{\leqLst}{\mathrel{\preceq_{L^*}}}
+\newcommand{\lLst}{\mathrel{\prec_{L^*}}}
+
+%\newtheorem{theorem}{Theorem}
+%\newtheorem{fact}[theorem]{Fact}
+%\newtheorem{definition}[theorem]{Definition}
+%\newtheorem{corollary}{Corollary}
+%\newtheorem{proposition}[theorem]{Proposition}
+%\newtheorem{remark}[theorem]{Remark}
+%\newtheorem{solution}[theorem]{Solution}
+%\newtheorem{summary}[theorem]{Summary}
+
+\oddsidemargin 0in
+\evensidemargin 0in
+\textwidth 6.5in
+\topmargin -.5in
+\textheight 9.0in
+\newcommand{\realsp}{\mathbf{R}_+^n}
+\newcommand{\intrealsp}{\int_{\mathbf{R}_+^n}}
+
+% Examples, remarks and algorithms      
+
+% For notes and references
+\newenvironment{notesandrefs}{\clearpage\section*{Notes and References}\addcontentsline{toc}{section}{Notes and References}\markright{Notes and References}
+\begin{small}\addtolength{\baselineskip}{-1.0pt}\parindent 0pt \parskip 4pt}{\clearpage\end{small}\addtolength{\baselineskip}{1.0pt}}
+\newcommand{\nrsection}[1]{\subsection*{#1}}
+\newcommand{\nrsubsection}[1]{\subsubsection*{#1}}
+
+% exercises
+\newcounter{exno}
+\renewcommand{\theexno}{\thechapter.\arabic{exno}}
+\newenvironment{exercises}{\clearpage\section*{Exercises}\addcontentsline{toc}{section}{Exercises}\markright{Exercises}
+\begin{small}\addtolength{\baselineskip}{-1.0pt}
+\renewcommand{\labelenumi}{(\alph{enumi})}
+\begin{list} {{\bf Exercise \thechapter.\arabic{exno}.}}
+{\usecounter{exno}%\setlength{\leftmargin}{0pt}
+}}{\end{list}\clearpage\end{small}\addtolength{\baselineskip}{1.0pt}}   % add markboth
+
+
+% proof !!!
+\newenvironment{proof}%
+{\begin{quote}\begin{small}\textbf{Proof.}}%
+{\end{small}\end{quote}}
+
+% alg description --- not much for now!
+%\newenvironment{algdesc}%
+%{\begin{quote}}{\end{quote}}
+
+% figures
+\def\figbox#1{\framebox[\hsize]{\hfil\parbox{0.9\hsize}{#1}}}
