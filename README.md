@@ -1,3 +1,3 @@
 # ReadingNotes
 
-Please refer to reading_notes.pdf
+Please refer to the [project pdf](./reading_notes.pdf).
